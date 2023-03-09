@@ -129,7 +129,7 @@ function update() {
         context.font = "80px sans-serif";
         context.fillText("GAME OVER", 270, 300);
         context.font = "30px sans-serif";
-        context.fillText("Press 'SPACE' to start again", 340, 350);
+        context.fillText("Press 'SPACE' to start", 370, 350);
     }
 }
 
