@@ -21,7 +21,6 @@ body {
 }
 #container h3 {
     color: rgb(212, 178, 178);
-
 }
 
 #container h4 {
@@ -30,4 +29,9 @@ body {
 
 .color {
     color: white;
+}
+
+.space {
+    color: rgb(158, 117, 117);
+    font-weight: bold;
 }
