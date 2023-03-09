@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #544C5F;
+    margin: auto;
+    padding: auto;
+}
+
+#board {
+    background-image: url(background.png);
+}
+
+#container {
+    margin: auto;
+    padding: auto;
+    width: 1000px;
+}
+
+#container h1 {
+    border-bottom: 1px solid black;
+
+}
+#container h3 {
+    color: rgb(212, 178, 178);
+
+}
+
+#container h4 {
+    text-align: right;
+}
+
+.color {
+    color: white;
+}
