@@ -31,8 +31,8 @@ let cloudY = boardHeight / 5;
 let bottomBuildingImg;
 
 let buildingArray = [];
-let buildingWidth = 219;
-let buildingHeight = 300;
+let buildingWidth = 400;
+let buildingHeight = 272;
 let buildingX = boardWidth / 1;
 let buildingY = boardHeight / 8;
 
@@ -61,7 +61,7 @@ window.onload = function () {
     topCloudImg.src = "top-cloud.png";
 
     bottomBuildingImg = new Image();
-    bottomBuildingImg.src = "bottom-cloud.png";
+    bottomBuildingImg.src = "bottom-building.png";
 
     requestAnimationFrame(update);
     setInterval(placeClouds, 1500);//every 1.5 seconds
